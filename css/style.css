@@ -1,3 +1,45 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/* barra di navigazione */
+.header_top {
+  line-height: 65px;
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+
+.header_logo {
+  height: 28px;
+  vertical-align: middle;
+}
+
+.header_top li {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+
+.header_top li a {
+  color: rgb(3, 27, 79);
+  text-decoration: none;
+}
+
+.header_top li a:hover{
+  color: #0C61FF;
+}
+
+.btn_custom {
+  color: #0C61FF!important;
+  border: 2px solid #0C61FF;
+}
+
+.btn_custom:hover {
+  color: #fff!important;
+  background-color: #0C61FF;
+  border: 2px solid #0C61FF;
+}
+/* /barra di navigazione */
