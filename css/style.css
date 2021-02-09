@@ -1,5 +1,12 @@
+/* general */
 body {
   font-family: 'Roboto', sans-serif;
+}
+/* /general */
+
+/* Mix */
+.text_blu {
+  color: #0C61FF;
 }
 
 /* barra di navigazione */
@@ -47,6 +54,8 @@ body {
 
 .hamburger_menu {
   color: #0C61FF;
+  line-height: 65px;
+  vertical-align: middle;
 }
 /* /barra di navigazione */
 
@@ -69,5 +78,56 @@ body {
 .get_started {
   background-color: #fff;
   border-radius: 10px;
-  
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.input_mail {
+  width: 90%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+.input_pssw {
+  width: 90%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.btn_account {
+  color: #fff;
+  background-color: #0C61FF;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.btn_account:hover {
+  background-color: #1733FF;
+}
+
+.btn_google {
+  background-image: url("../img/google-icon.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 4% 50%;
+  color: #000;
+  background-color: #fff;
+  width: 90%;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 2px 0 lightgrey;
+  margin-bottom: 10px;
+}
+
+.get_started small{
+  color: #000;
+  font-size: 12px;
+}
+
+.get_started small a {
+  text-decoration: underline;
 }
