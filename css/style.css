@@ -26,6 +26,12 @@ body {
 }
 /* /Mix */
 
+/* Typo */
+
+h2, h3 {
+  color: #031b4e;
+}
+
 /* barra di navigazione */
 .header_top {
   background-color: #fff;
@@ -168,3 +174,52 @@ body {
   max-width: 100%;
   vertical-align: middle;
 }
+/* /interlinea */
+
+/* sezione deploy */
+.deploy {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.deploy h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.deploy p {
+  font-size: 21px;
+}
+
+.deploy_container {
+  margin-top: 50px;
+}
+
+.deploy_menu li{
+  list-style: none;
+  text-align: left;
+  border-left: 1px solid lightgrey;
+  padding: 10px;
+}
+
+.deploy_menu li:hover {
+  border-left: 2px solid #1733FF;
+}
+
+.deploy_menu li a{
+  color: grey;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.deploy_menu li a:hover {
+  color: #0C61FF;
+}
+
+.deploy_tile {
+  text-align: left;
+  margin: 20px 0;
+}
+/* /sezione deploy */
