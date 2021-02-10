@@ -27,8 +27,13 @@ body {
 /* /Mix */
 
 /* Typo */
+h2 {
+  color: #031b4e;
+  font-size: 40px;
+  font-weight: 500;
+}
 
-h2, h3 {
+h3 {
   color: #031b4e;
 }
 
@@ -85,6 +90,8 @@ h2, h3 {
 /* jumbotron */
 .jumbotron {
   background-image: url("../img/bg_hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   margin-top: 70px;
   margin-bottom: 0;
@@ -105,6 +112,10 @@ h2, h3 {
   text-align: center;
   margin: auto;
   padding: 10px;
+}
+
+.get_started h2, .get_started h3 {
+  font-size: 30px;
 }
 
 .input_mail {
@@ -183,11 +194,6 @@ h2, h3 {
   margin-top: 50px;
 }
 
-.deploy h2 {
-  font-size: 40px;
-  font-weight: 500;
-}
-
 .deploy p {
   font-size: 21px;
 }
@@ -223,3 +229,40 @@ h2, h3 {
   margin: 20px 0;
 }
 /* /sezione deploy */
+
+/* carousel */
+.carousel {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.carousel p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.carousel img {
+  max-width: 100%;
+}
+
+.carousel_chevron {
+  font-size: 30px;
+  color: grey;
+  vertical-align: middle;
+}
+
+.chevron_col {
+  line-height: 80vh;
+}
+
+.carousel small {
+  color: #031b4e;
+}
+
+.bullet {
+  color: #0C61FF;
+  margin-top: 0;
+}
+/* /carousel */
