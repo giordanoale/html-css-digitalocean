@@ -285,3 +285,39 @@ h3 {
   color: #1153FF;
 }
 /* middleline features */
+
+/* sezione servers */
+.servers {
+  background: #031b4e url(../img/bg-map.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.servers h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.server_table tr td {
+  color: #fff;
+}
+
+.third_data {
+  text-align: right;
+}
+
+.third_data a {
+  color: #00d7d2;
+}
+
+.third_data a:hover{
+  text-decoration: none;
+  color: #1633ff;
+}
+
+.first_row {
+  border-top: hidden;
+}
