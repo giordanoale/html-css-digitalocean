@@ -8,6 +8,23 @@ body {
 .text_blu {
   color: #0C61FF;
 }
+.text_blu a{
+  text-decoration: none;
+  color: #0C61FF;
+}
+
+.text_blu a:hover {
+  color: #1733FF;
+}
+
+.text_grey {
+  color: grey;
+}
+
+.bg_grey {
+  background-color: #F3F5FA;
+}
+/* /Mix */
 
 /* barra di navigazione */
 .header_top {
@@ -64,6 +81,7 @@ body {
   background-image: url("../img/bg_hero.svg");
   width: 100%;
   margin-top: 70px;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -130,4 +148,23 @@ body {
 
 .get_started small a {
   text-decoration: underline;
+}
+/* /jumbotron */
+
+/* interlinea */
+.interline {
+  text-align: center;
+  margin: auto;
+}
+
+.interline p {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.interline img {
+  max-width: 100%;
+  vertical-align: middle;
 }
