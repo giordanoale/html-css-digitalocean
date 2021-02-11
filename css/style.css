@@ -406,6 +406,83 @@ h3 {
 }
 /* /underline */
 
+/* Sammy the shark */
+.sammy {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 10;
+}
+
+.baloon {
+  background-color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+  margin-right: 10px;
+  max-width: 250px;
+  box-shadow: 2px 2px #ddd;
+}
+
+.baloon p {
+  padding: 5px 5px;
+  font-weight: 500;
+  text-align: left;
+  color: #031C4E;
+  margin-bottom: 0px;
+}
+
+.baloon i {
+  position: absolute;
+  bottom: 5px;
+  right: -7px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.sammy_img {
+  line-height: 53px;
+  height: 53px;
+  width: 53px;
+  background-color: #0D69FF;
+  background-image: url(../img/sammy_shark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.sammy_img img {
+  width: 98%;
+  margin: auto;
+}
+
+.notification_number {
+  background-color: #ff3300;
+  border: 3px solid #fff;
+  text-align: center;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  line-height: 13px;
+  vertical-align: middle;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.notification_number span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 10px;
+}
+/* /Sammy the shark */
+
+/* pie di pagina */
 footer {
   background-color: #031c4e;
   padding: 50px 0;
@@ -446,3 +523,4 @@ footer p {
 .menu_list li:hover {
   color: #fff;
 }
+/* /pie di pagina */
