@@ -333,11 +333,11 @@ h3 {
 
 /* secondo carousel */
 .container_small {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 .white_box {
-  width: calc(80% - 4px);
+  width: 100%;
   padding: 30px;
   background-color: #fff;
   margin: 50px auto 10px auto;
@@ -378,9 +378,9 @@ h3 {
   margin: 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .container_small {
-    width: 95%;
+    width: 90%;
   }
 }
 /* /secondo carousel */
