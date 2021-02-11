@@ -481,7 +481,7 @@ h3 {
   font-size: 10px;
 }
 
-@media screen and (max-width: 758) {
+@media screen and (max-width: 758px) {
   .sammy {
     position: fixed;
     bottom: 20px;
