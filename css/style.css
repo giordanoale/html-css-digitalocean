@@ -237,10 +237,10 @@ h3 {
   padding-bottom: 40px;
 }
 
-.carousel p {
+.carousel .under_text {
   font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .carousel img {
@@ -253,8 +253,16 @@ h3 {
   vertical-align: middle;
 }
 
+.central_col {
+  width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .chevron_col {
-  line-height: 80vh;
+  width: calc(10% - 4px);
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .carousel small {
@@ -321,3 +329,57 @@ h3 {
 .first_row {
   border-top: hidden;
 }
+/* /sezione servers */
+
+/* secondo carousel */
+.container_small {
+  width: 50%;
+  margin: auto;
+}
+.white_box {
+  padding: 30px;
+  background-color: #fff;
+  margin: 50px auto 10px auto;
+  vertical-align: middle;
+}
+
+.white_box img {
+  margin-top: 20px;
+}
+
+.white_box .quote {
+  font-size: 20px;
+  margin: 20px 5px 5px 5px;
+}
+
+.white_box p {
+  margin: 0;
+  font-size: 18px;
+}
+
+#ceo_name {
+  font-weight: 500;
+}
+
+.white_box .story_link {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 400;
+  color: #0069ff;
+}
+
+.white_box .story_link:hover {
+  text-decoration: none;
+  color: #1633ff;
+}
+
+.bullets {
+  margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .container_small {
+    width: 95%;
+  }
+}
+/* /secondo carousel */
