@@ -333,10 +333,11 @@ h3 {
 
 /* secondo carousel */
 .container_small {
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 .white_box {
+  width: calc(80% - 4px);
   padding: 30px;
   background-color: #fff;
   margin: 50px auto 10px auto;
@@ -409,20 +410,24 @@ h3 {
 /* Sammy the shark */
 .sammy {
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  bottom: 30px;
+  right: 30px;
   z-index: 10;
 }
 
 .baloon {
   background-color: #fff;
   border-radius: 5px;
-  display: inline-block;
+  display: none;
   vertical-align: bottom;
   position: relative;
   margin-right: 10px;
   max-width: 250px;
   box-shadow: 2px 2px #ddd;
+}
+
+.sammy:hover .baloon {
+  display: inline-block;
 }
 
 .baloon p {
@@ -439,6 +444,7 @@ h3 {
   right: -7px;
   color: #fff;
   font-size: 20px;
+  text-shadow: 2px 2px #ddd;
 }
 
 .sammy_img {
