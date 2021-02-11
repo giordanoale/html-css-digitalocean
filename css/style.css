@@ -383,3 +383,25 @@ h3 {
   }
 }
 /* /secondo carousel */
+
+/* underline */
+.underline {
+  background-image: url(../img/bg_underline.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.underline h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.underline a {
+  border: 2px solid #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* /underline */
